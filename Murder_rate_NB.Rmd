@@ -82,10 +82,10 @@ murders$state[index]
 
 ```
 
-```{r}
+```{r Return_TRUE_indices}
 
 x <- c(FALSE, TRUE, FALSE, TRUE, TRUE, FALSE)
-which(x)    #### returns indices that are TRUE
+which(x)    #### Returns indices that are TRUE
 
 ```
 
@@ -115,7 +115,7 @@ x <- c("a", "b", "c", "d", "e")
 y <- c("a", "d", "f")
 y %in% x
 
-#### to see if Boston, Dakota, and Washington are states
+#### To see if Boston, Dakota, and Washington are states
 
 c("Boston", "Dakota", "Washington") %in% murders$state
 
