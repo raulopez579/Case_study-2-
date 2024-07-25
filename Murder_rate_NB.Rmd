@@ -98,7 +98,7 @@ murder_rate[index]
 
 ```
 
-```{r}
+```{r Subsequent_murder_rates}
 
 #### To obtain the indices and subsequent murder rates of New York, Florida, Texas, we do:
 
@@ -109,7 +109,7 @@ murder_rate[index]
 
 ```
 
-```{r}
+```{r Are_these_states}
 
 x <- c("a", "b", "c", "d", "e")
 y <- c("a", "d", "f")
@@ -121,9 +121,9 @@ c("Boston", "Dakota", "Washington") %in% murders$state
 
 ```
 
-```{r}
+```{r Load_plot_package}
 
-####Load plot package
+#### Load plot package
 library(dplyr)
 
 ```

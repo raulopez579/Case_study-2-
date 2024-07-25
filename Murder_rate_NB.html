@@ -1692,7 +1692,7 @@ index &lt;- safe &amp; west
 murders$state[index]</code></pre>
 <pre><code>## [1] &quot;Hawaii&quot;  &quot;Idaho&quot;   &quot;Oregon&quot;  &quot;Utah&quot;    &quot;Wyoming&quot;</code></pre>
 <pre class="r"><code>x &lt;- c(FALSE, TRUE, FALSE, TRUE, TRUE, FALSE)
-which(x)    #### returns indices that are TRUE</code></pre>
+which(x)    #### Returns indices that are TRUE</code></pre>
 <pre><code>## [1] 2 4 5</code></pre>
 <pre class="r"><code>#### To determine the murder rate in Massachusetts we may do the following
 index &lt;- which(murders$state == &quot;Massachusetts&quot;)
@@ -1713,11 +1713,11 @@ index</code></pre>
 y &lt;- c(&quot;a&quot;, &quot;d&quot;, &quot;f&quot;)
 y %in% x</code></pre>
 <pre><code>## [1]  TRUE  TRUE FALSE</code></pre>
-<pre class="r"><code>#### to see if Boston, Dakota, and Washington are states
+<pre class="r"><code>#### To see if Boston, Dakota, and Washington are states
 
 c(&quot;Boston&quot;, &quot;Dakota&quot;, &quot;Washington&quot;) %in% murders$state</code></pre>
 <pre><code>## [1] FALSE FALSE  TRUE</code></pre>
-<pre class="r"><code>####Load plot package
+<pre class="r"><code>#### Load plot package
 library(dplyr)</code></pre>
 <pre class="r"><code>#### A histogram of murder rates
 murders &lt;- mutate(murders, rate = total / population * 100000)
